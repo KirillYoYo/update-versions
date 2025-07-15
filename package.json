@@ -1,0 +1,45 @@
+{
+  "name": "update-versions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "node": ">=20.0.0",
+  "scripts": {
+    "test": "test",
+    "start": "npx tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillYoYo/update-versions.git"
+  },
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KirillYoYo/update-versions/issues"
+  },
+  "homepage": "https://github.com/KirillYoYo/update-versions#readme",
+  "description": "",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "glob": "^11.0.3",
+    "js-yaml": "^4.1.0",
+    "simple-git": "^3.28.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.0.14",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "i": "^0.3.7",
+    "nodemon": "^3.1.10",
+    "npm": "^11.4.2",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
